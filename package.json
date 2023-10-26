@@ -8,7 +8,7 @@
   "author": "Konstantinos Andreou",
   "license": "ISC",
   "bin": {
-    "create-html-sass": "./bin/index.js"
+    "create-project-kotsios": "./bin/index.js"
   },
   "dependencies": {
     "@inquirer/prompts": "^3.2.0",
