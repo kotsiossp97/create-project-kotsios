@@ -1,6 +1,10 @@
 # create-project-kotsios
 A npx script to scaffold my projects.
 
+At the moment, the tool can generate using three templates:
+- Plain HTML with SASS precompiler
+- HTML, SASS and JS bundling with Webpack
+- React project with MaterialUI and SASS
 
 
 ## Usage
