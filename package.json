@@ -1,0 +1,20 @@
+{
+  "name": "create-project-kotsios",
+  "version": "1.0.0",
+  "description": "npx script to scaffold my projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantinos Andreou",
+  "license": "ISC",
+  "bin": {
+    "create-html-sass": "./bin/index.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^3.2.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.1.1",
+    "validate-npm-package-name": "^5.0.0"
+  }
+}
