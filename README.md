@@ -10,7 +10,7 @@ At the moment, the tool can generate using three templates:
 ## Usage
 1. Install the create-project-kotsios tool if you haven't already. You can do this by running the following command:
 ```bash
-npm install -g create-project-kotsios
+npm install -g kotsiossp97/create-project-kotsios
 ```
 
 2. Next, create a new project using the following command and following the on-screen prompts:
