@@ -6,6 +6,7 @@ At the moment, the tool can generate using three templates:
 - HTML, SASS and JS bundling with Webpack
 - React project with MaterialUI and SASS
 
+![CLI screen](/screenshots/screen1.png?raw=true)
 
 ## Usage
 1. Install the create-project-kotsios tool if you haven't already. You can do this by running the following command:
