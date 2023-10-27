@@ -1,9 +1,8 @@
-import React from "react";
 import styles from "./intro.module.scss";
 
 const Intro = () => {
     return (
-        <div className={styles.App}>
+        <div className={styles.intro}>
             <h1>Welcome to your new project!</h1>
             <p>
                 Edit <code>./App.js</code> to continue !
