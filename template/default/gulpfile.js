@@ -49,6 +49,8 @@ const watchSass = () => {
 };
 
 const serve = () => {
+    compileSassDev()
+
     browserSync.init({
         server: {
             baseDir: "./public",
@@ -61,4 +63,4 @@ const serve = () => {
 
 exports.watch = watchSass;
 exports.build = gulp.series(compileSassProd, prefixSass, compressCss);
-exports.serve = gulp.series(compileSassDev, serve);
+exports.serve = serve;
